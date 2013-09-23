@@ -1,3 +1,9 @@
+config-awesome-bashrc (0.2) UNRELEASED; urgency=low
+
+  * fix for postinst(" replaced with ')
+
+ -- Igor Shishkin <me@teran.ru>  Mon, 23 Sep 2013 17:16:48 +0400
+
 config-awesome-bashrc (0.1) unstable; urgency=low
 
   * Initial release.

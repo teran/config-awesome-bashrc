@@ -2,11 +2,11 @@
 
 echo
 echo
-echo "/*************************************************************************\"
-echo "  This package intalls .bashrc into /etc/skel"
-echo "  To install this bashrc as your default please do the following:"
+echo '/*************************************************************************\'
+echo '  This package intalls .bashrc into /etc/skel'
+echo '  To install this bashrc as your default please do the following:'
 echo
-echo "  rm -vf ~/.bashrc ; ln -s /etc/skel/.bashrc ~/.bashrc ; source ~/.bashrc"
-echo "\*************************************************************************/"
+echo '  rm -vf ~/.bashrc ; ln -s /etc/skel/.bashrc ~/.bashrc ; source ~/.bashrc'
+echo '\*************************************************************************/'
 echo
 echo
