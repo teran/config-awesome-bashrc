@@ -1,3 +1,11 @@
+config-awesome-bashrc (0.3) unstable; urgency=low
+
+  * colored prompt
+  * mysql prompt
+  * some aliases
+
+ -- Igor Shishkin <me@teran.ru>  Mon, 23 Sep 2013 17:21:06 +0400
+
 config-awesome-bashrc (0.2) unstable; urgency=low
 
   * fix for postinst(" replaced with ')
