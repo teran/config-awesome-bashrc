@@ -1,0 +1,16 @@
+Source: config-awesome-bashrc
+Section: extra
+Priority: optional
+Maintainer: Igor Shishkin <me@teran.ru>
+Vcs-Browser: https://github.com/teran/config-awesome-bashrc
+Vcs-Git: https://github.com/teran/config-awesome-bashrc.git
+
+Package: config-awesome-bashrc
+Section: extra
+Priority: optional
+Architecture: all
+Depends: bash
+Replaces: bash
+Description: zabbix-agent configuration files to use with zabbix.teran.pw
+ .
+
