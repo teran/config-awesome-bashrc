@@ -1,3 +1,9 @@
+config-awesome-bashrc (0.5) unstable; urgency=low
+
+  * adding title to the term
+
+ -- Igor Shishkin <me@teran.ru>  Fri, 27 Sep 2013 01:28:53 +0400
+
 config-awesome-bashrc (0.4) unstable; urgency=low
 
   * bashrc prompt updated

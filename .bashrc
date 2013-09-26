@@ -95,6 +95,14 @@ export PS1="\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^ \[\e[0m\]; else echo \[\e[
 
 export MYSQL_PS1="\u@"`hostname -s`" [\d]> "
 
+case "$TERM" in
+xterm*|rxvt*)
+    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/$HOME/~}\007"'
+    ;;
+*)
+    ;;
+esac
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
