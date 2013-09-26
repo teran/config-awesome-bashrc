@@ -111,6 +111,9 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
+export EDITOR=`which vim`
+export SVN_EDITOR="$EDITOR"
+
 if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
