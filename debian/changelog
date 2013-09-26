@@ -1,4 +1,4 @@
-config-awesome-bashrc (0.4) UNRELEASED; urgency=low
+config-awesome-bashrc (0.4) unstable; urgency=low
 
   * bashrc prompt updated
 
